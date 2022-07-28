@@ -1,6 +1,18 @@
+.my-carousel{
+    margin-bottom: 3rem;
+}
+
 @media only screen and (max-width:576px) {
     .my-carousel h1{
-        font-size: 1rem;
+        font-size: 1.25rem;
+    }
+    .my-carousel p{
+        font-size: 0.25rem;
+    }
+}
+@media only screen and (max-width:776px) and (min-width:576px){
+    .my-carousel h1{
+        font-size: 1.25rem;
     }
     .my-carousel p{
         font-size: 0.25rem;
