@@ -1,4 +1,8 @@
-.my-carousel{
-    width: auto;
-    height: 60%;
+@media only screen and (max-width:576px) {
+    .my-carousel h1{
+        font-size: 1rem;
+    }
+    .my-carousel p{
+        font-size: 0.25rem;
+    }
 }
